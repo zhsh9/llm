@@ -8,6 +8,6 @@ Document:
 
 Roadmap
 
-- [ ] Fluent Python
-- [ ] PyTorch Walk Through
-- [ ] NLP Classic Papers
+- [ ] Fluent Python, [here](./Python.md)
+- [ ] PyTorch Walk Through, [here](./PyTorch.md)
+- [ ] NLP Classic Papers, [here](./LLM%20Paper.md)
