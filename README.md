@@ -6,6 +6,41 @@ Document:
 - [PyTorch](https://pytorch.org/docs/stable/index.html)
 - [TensorFlow](https://www.tensorflow.org/api_docs/python/tf)
 
+Application:
+- NLP
+- CV
+- Audio
+- RLHF
+- LLM
+
+AI System Development:
+- Model Dev & Train
+  - DeepSpeed
+  - Megatron-LM
+  - Colossal-AI
+  - HuggingFace
+- Application Dev & Deploy
+  - LangChain
+  - Milvus
+
+Training Performance Metrics:
+- MFU (Model FLOPs Utilization)
+  - MFU = Actual FLOPs / Theoretical Peak FLOPs
+- HFU (Hardware FLOPs Utilization)
+  - HFU = Actual Hardware FLOPs / Theoretical Peak Hardware FLOPs
+
+Framework:
+- Training
+  - PyTorch
+  - TensorFlow
+  - Caffe
+  - MindSpore
+  - JAX
+- Inference
+  - MNN
+  - ONNX
+  - TensorRF
+
 Tokenization Algorithm:
 - BPE: GPT-n, RoBERTa, Llama, BART, ChatGLM-6B
 - WordPiece: BERT, DistilBERT, MobileBERT
@@ -25,7 +60,7 @@ Model Structure:
 
 Attention Block:
 - Multi-Head Attention (MHA)
-- Multi-Head Latent Attention (MLA)
+- Multi-Head Latent Attention (MLA), KV Cache
 
 Fine-Tuning:
 - Supervised FT
@@ -47,7 +82,9 @@ Fine-Tuning Algorithm Focusing on Parameter:
   - Prompt Tuning
 - BitFit
 
-Parallel: TP, PP, CP, DP
+Parallel: DP, TP, PP, CP
+- DeepSpeed: DP
+- Megatron-LM: DP, TP, PP
 
 Fine-Tuning Tool: Perf, Llama Factory
 
