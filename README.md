@@ -23,6 +23,11 @@ AI System Development:
   - LangChain
   - Milvus
 
+Training Efficiency:
+- Parallel
+- ZeRo (Zero Redundancy Optimizer)
+- Mixed Precision
+
 Training Performance Metrics:
 - MFU (Model FLOPs Utilization)
   - MFU = Actual FLOPs / Theoretical Peak FLOPs
@@ -73,14 +78,16 @@ Fine-Tuning:
 - Few-Shot FT
 - Zero-Shot FT
 - Instruction FT
+- Alignment FT
 
 Fine-Tuning Algorithm Focusing on Parameter:
 - Full Fine-Tuning
-- Parameter-Efficient Fine-Tuning (PEFT)
+- Parameter-Efficient Fine-Tuning (PEFT) | Delta-Tuning
   - LoRA & AdaLoRA
   - Prefix Tuning
-  - Prompt Tuning
-- BitFit
+  - Adapter Tuning
+  - BitFit
+- Prompt Tuning
 
 Parallel: DP, TP, PP, CP
 - DeepSpeed: DP
