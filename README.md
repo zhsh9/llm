@@ -81,8 +81,8 @@ Fine-Tuning:
 - Alignment FT
 
 Fine-Tuning Algorithm Focusing on Parameter:
-- Full Fine-Tuning
-- Parameter-Efficient Fine-Tuning (PEFT) | Delta-Tuning
+- Full-Parameter Fine-Tuning
+- Parameter-Efficient Fine-Tuning (PEFT) | Delta Tuning | Adaptation Tuning
   - LoRA & AdaLoRA
   - Prefix Tuning
   - Adapter Tuning
