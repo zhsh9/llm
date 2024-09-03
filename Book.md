@@ -12,6 +12,8 @@
 ## Machine Learning
 
 - Machine Learning with Python
+- 机器学习 周志华
+- Foundations of Machine Learning, Mehryar 2018
 
 ## Deep Learning
 
