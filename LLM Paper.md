@@ -13,8 +13,8 @@
 
 ## Comprehension
 
-| 年份 | 名字                                                         | 简介                                          | 精读 |
-| ---- | ------------------------------------------------------------ | --------------------------------------------- | ---- |
+| 年份 | 名字                                                                                    | 简介                                          | 精读 |
+| ---- | --------------------------------------------------------------------------------------- | --------------------------------------------- | ---- |
+| 2020 | [Efficient Transformers: A Survey](https://arxiv.org/abs/2009.06732)                    | X-former 模型的全面综述                       |      |
 | 2022 | [On the Opportunities and Risks of Foundation Models](https://arxiv.org/pdf/2108.07258) | LLM能力、机遇和挑战，垂直领域应用，影响       |      |
-| 2023 | [A Survey of Large Language Models](https://arxiv.org/abs/2303.18223) | LLM必看综述: 资源、预训练、微调、应用、能力等 |      |
-
+| 2023 | [A Survey of Large Language Models](https://arxiv.org/abs/2303.18223)                   | LLM必看综述: 资源、预训练、微调、应用、能力等 |      |
