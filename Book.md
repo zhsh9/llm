@@ -3,7 +3,6 @@
 ## Math
 
 - [x] 深度学习的数学
-- [ ] 统计学习方法(第2版)李航
 
 ## Python
 
@@ -11,11 +10,24 @@
 
 ## Machine Learning
 
+Machine Learning 的数学基础:  
+- 微积分
+- 线性代数
+- 概率论
+- 统计学
+- 信息论
+- 最优化理论
+- 计算理论
+- 图论
+- 函数分析
+
 - [ ] 精通特征工程
-- [ ] Machine Learning with Python
 - [ ] 机器学习 周志华
+- [ ] 机器学习方法 李航
+- [ ] Machine Learning with Python
 - [ ] Foundations of Machine Learning, Mehryar 2018
 - [ ] Approaching (Almost) Any Machine Learning Problem
+- [ ] Hands-On Machine Learning with Scikit-Learn Keras & TensorFlow 3th Edition
 
 ## Deep Learning
 
