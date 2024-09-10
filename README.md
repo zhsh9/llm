@@ -97,6 +97,6 @@ Fine-Tuning Tool: Perf, Llama Factory
 
 ## Roadmap
 
-- [ ] Fluent Python, [here](./Python.md)
-- [ ] PyTorch Walk Through, [here](./PyTorch.md)
+- [ ] Fluent Python, [here](./lang/Python.md)
+- [ ] PyTorch Walk Through, [here](./framework/PyTorch.md)
 - [ ] NLP Classic Papers, [here](./LLM%20Paper.md)
