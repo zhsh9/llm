@@ -8,12 +8,18 @@
 
 - [ ] 流畅的Python
 
+## AI System
+
+- [ ] AI系统 原理与架构
+
 ## Machine Learning
 
 Machine Learning 的数学基础: 微积分，线性代数，概率论，统计学，信息论，最优化理论，计算理论，图论，函数分析
 
 - [ ] 精通特征工程
 - [ ] 机器学习 周志华
+- [ ] 机器学习理论导引 周志华
+- [ ] 机器学习公式详解
 - [ ] 机器学习方法 李航
 - [ ] Machine Learning with Python
 - [ ] Foundations of Machine Learning, Mehryar 2018
