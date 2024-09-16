@@ -27,3 +27,4 @@
 
 Q:  
 为什么现在的 LLM 都是 Decoder Only 的架构？
+https://www.zhihu.com/question/588325646
