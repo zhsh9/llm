@@ -13,10 +13,19 @@
 
 ## Comprehension
 
-| 年份 | 名字                                                                                          | 简介                                          | 精读 |
-| ---- | --------------------------------------------------------------------------------------------- | --------------------------------------------- | ---- |
-| 2020 | [Efficient Transformers: A Survey](https://arxiv.org/abs/2009.06732)                          | X-former 模型的全面综述                       |      |
-| 2022 | [On the Opportunities and Risks of Foundation Models](https://arxiv.org/pdf/2108.07258)       | LLM能力、机遇和挑战，垂直领域应用，影响       |      |
-| 2023 | [A Survey of Large Language Models](https://arxiv.org/abs/2303.18223)                         | LLM必看综述: 资源、预训练、微调、应用、能力等 |      |
+| 年份 | 名字                                                         | 简介                                          | 精读 |
+| ---- | ------------------------------------------------------------ | --------------------------------------------- | ---- |
+| 2020 | [Efficient Transformers: A Survey](https://arxiv.org/abs/2009.06732) | X-former 模型的全面综述                       |      |
+| 2022 | [On the Opportunities and Risks of Foundation Models](https://arxiv.org/pdf/2108.07258) | LLM能力、机遇和挑战，垂直领域应用，影响       |      |
+| 2023 | [A Survey of Large Language Models](https://arxiv.org/abs/2303.18223) | LLM必看综述: 资源、预训练、微调、应用、能力等 |      |
+| 2023 | [Summary of ChatGPT-Related Research and Perspective Towards the Future of Large Language Models](https://arxiv.org/abs/2304.01852) | 对ChatGPT相关研究进行了全面综述               |      |
 | 2024 | [What is the Role of Small Models in the LLM Era: A Survey](https://arxiv.org/abs/2409.06857) | 从协作和竞争关系来看LLM和SM                   |      |
-| 2024 | [A Survey of Large Language Models for Graphs](https://arxiv.org/abs/2405.08011)              | 综述不同设计方法来整合LLMs和图学习技术        |      |
+| 2024 | [A Survey of Large Language Models for Graphs](https://arxiv.org/abs/2405.08011) | 综述不同设计方法来整合LLMs和图学习技术        |      |
+
+## RL & CoT
+
+| 年份 | 名字                                                         | 简洁                                                         | 精读 |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
+| 2020 | [Learning to summarize from human feedback](https://arxiv.org/abs/2009.01325) | 开辟进行基于人类反馈的强化模型训练，通过摘要任务展示         |      |
+| 2024 | [Quiet-STaR: Language Models Can Teach Themselves to Think Before Speaking](https://arxiv.org/abs/2403.09629) | 开辟新的语言模型训练方法，通过让模型在生成每个token时学习产生解释性的内部思考，提高了模型在预测困难token和回答复杂问题时的能力，无需针对特定任务进行微调就能实现零样本性能提升 |      |
+
