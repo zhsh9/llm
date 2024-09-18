@@ -32,6 +32,7 @@ Machine Learning 的数学基础: 微积分，线性代数，概率论，统计�
 - [ ] 深度学习进阶: 自然语言处理
 - [ ] 深度学习详解 王琦
 - [ ] 深度学习调参指南
+- [ ] Nerual Networks and Deep Learning 神经网络与深度学习|案例与实现 邱锡鹏
 - [ ] Deep Learning with PyTorch
 - [ ] Neural Networsk from Scratch in Python
 
