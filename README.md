@@ -100,3 +100,5 @@ Fine-Tuning Tool: Perf, Llama Factory
 - [ ] Fluent Python, [here](./lang/Python.md)
 - [ ] PyTorch Walk Through, [here](./framework/PyTorch.md)
 - [ ] NLP Classic Papers, [here](./LLM%20Paper.md)
+- [ ] 机器学习方法
+- [ ] 深度学习进阶: 自然语言处理

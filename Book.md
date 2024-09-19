@@ -35,6 +35,14 @@ Machine Learning 的数学基础: 微积分，线性代数，概率论，统计�
 - [ ] Nerual Networks and Deep Learning 神经网络与深度学习|案例与实现 邱锡鹏
 - [ ] Deep Learning with PyTorch
 - [ ] Neural Networsk from Scratch in Python
+- [ ] Deep Learning Models: A Practical Approach for Hands-On Professionals Jonah Gamba
+- [ ] Deep Learning From Scratch: Building with Python from First Principles
+- [ ] Deep learning in Python/ Pytorch by Manning Publications
+- [ ] Deep Learning by Ian Goodfellow, Yoshua Bengio, and Aaron Courville published by MIT Press
+- [ ] Deep Learning for Computer Vision by Rajalingappaa Shanmugamani
+- [ ] Natural Language Processing in Action by Lane, Howard, and Hapke
+- [ ] Deep Reinforcement Learning Hands-On by Maxim Lapan
+- [ ] Generative Deep Learning: Teaching Machines to Paint, Write, Compose, and Play by David Foster
 
 ## LLM
 
