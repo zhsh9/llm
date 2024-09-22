@@ -1,0 +1,39 @@
+# Generative Artificial Intelligence
+
+- Terminology
+  - Artificial Intelligence
+  - Machine Learning
+  - Deep Learning
+  - Natural Language Processing
+    - Language Generation
+    - Machine Translation
+    - Dialogue
+    - Text Classification
+    - Sentiment Analysis
+  - Transformer
+    - BERT
+    - GPT
+    - T5
+  - Computer Vision
+  - Audio Processing
+  - Prompt Engineering
+- Model API
+  - API Best Practice
+    - Pricing
+    - Availability
+    - Capability
+    - API Document
+  - OpenAI, Claude, Gemini
+  - Hugging Face
+  - Vertex AI
+- Customized LLM
+  - RAG: Information Retrieval + Language Generation
+    - Vector Database
+    - Prompt + Query + Enhanced Context
+  - Fine Tuning
+    - Custom Knowledge Base(Task-oriented Dataset) after Base LLM
+- Application
+  - Education & Learning
+  - Business & Finance
+  - Customer Support
+  - Roboticing
