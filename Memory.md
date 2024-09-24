@@ -1,5 +1,9 @@
 # Memory Calculator
 
+## 大模型参数量级
+
+## 大模型推理显存
+
 $$
 Mem = (ParamNum * 4 * L)*(1+O)
 $$
