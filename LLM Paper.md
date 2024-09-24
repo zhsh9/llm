@@ -22,6 +22,13 @@
 | 2024 | [What is the Role of Small Models in the LLM Era: A Survey](https://arxiv.org/abs/2409.06857)                                       | 从协作和竞争关系来看LLM和SM                   |      |
 | 2024 | [A Survey of Large Language Models for Graphs](https://arxiv.org/abs/2405.08011)                                                    | 综述不同设计方法来整合LLMs和图学习技术        |      |
 
+## Quantization
+
+| 年份 | 名字 | 简介 | 精读 |
+| ---- | ---- | ---- | ---- |
+|      |      |      |      |
+
+
 ## Reinforcement Learning
 
 | 年份 | 名字                                                                          | 简介                                                 | 精读 |
@@ -43,3 +50,12 @@
 | 年份 | 名字                                                                       | 简介                                | 精读 |
 | ---- | -------------------------------------------------------------------------- | ----------------------------------- | ---- |
 | 2024 | [Qwen2.5-Coder Technical Report](https://huggingface.co/papers/2409.12186) | 阿里同义千问 Qwen2.5-Coder 技术报告 |      |
+
+## Dataset
+
+| 名字   | 简介 |
+| ------ | ---- |
+| MMLU   |      |
+| C-Eval |      |
+| GSM8K  |      |
+
