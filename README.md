@@ -2,17 +2,13 @@
 
 <p align="center">
   <a href="./Overview.md">
-    <img src="https://img.shields.io/badge/🌐-%20Overview-4169E1?style=flat&labelColor=D8D8F6" alt="Overview">
-  </a>
+    <img src="https://img.shields.io/badge/🌐-%20Overview-4169E1?style=flat&labelColor=D8D8F6" alt="Overview"></a>
   <a href="./Book.md">
-    <img src="https://img.shields.io/badge/📚-%20Book-2E8B57?style=flat&labelColor=D8D8F6" alt="Book">
-  </a>
+    <img src="https://img.shields.io/badge/📚-%20Book-2E8B57?style=flat&labelColor=D8D8F6" alt="Book"></a>
   <a href="./Research.md">
-    <img src="https://img.shields.io/badge/🔬-%20Research-DC143C?style=flat&labelColor=D8D8F6" alt="Research">
-  </a>
+    <img src="https://img.shields.io/badge/🔬-%20Research-DC143C?style=flat&labelColor=D8D8F6" alt="Research"></a>
   <a href="./Frontier%20Analysis.md">
-    <img src="https://img.shields.io/badge/🚀-%20Frontier-FF8C00?style=flat&labelColor=D8D8F6" alt="Frontier">
-  </a>
+    <img src="https://img.shields.io/badge/🚀-%20Frontier-FF8C00?style=flat&labelColor=D8D8F6" alt="Frontier"></a>
 </p>
 
 ## Document
