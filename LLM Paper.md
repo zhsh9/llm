@@ -29,3 +29,9 @@
 | 2020 | [Learning to summarize from human feedback](https://arxiv.org/abs/2009.01325)                                 | 开辟进行基于人类反馈的强化模型训练，通过摘要任务展示                                                                                                                           |      |
 | 2024 | [Quiet-STaR: Language Models Can Teach Themselves to Think Before Speaking](https://arxiv.org/abs/2403.09629) | 开辟新的语言模型训练方法，通过让模型在生成每个token时学习产生解释性的内部思考，提高了模型在预测困难token和回答复杂问题时的能力，无需针对特定任务进行微调就能实现零样本性能提升 |      |
 
+
+## Code
+
+| 年份 | 名字                                                                       | 简洁                                | 精读 |
+| ---- | -------------------------------------------------------------------------- | ----------------------------------- | ---- |
+| 2024 | [Qwen2.5-Coder Technical Report](https://huggingface.co/papers/2409.12186) | 阿里同义千问 Qwen2.5-Coder 技术报告 |      |
