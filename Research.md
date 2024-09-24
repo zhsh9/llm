@@ -44,7 +44,6 @@
 | 2023 | [Self-Consistency Improves Chain of Thought Reasoning in Language Models](https://arxiv.org/abs/2203.11171)   | 提出了一种名为"自一致性"的新解码策略，通过采样多条推理路径并选择最一致的答案                                                                                                   |      |
 | 2024 | [Quiet-STaR: Language Models Can Teach Themselves to Think Before Speaking](https://arxiv.org/abs/2403.09629) | 开辟新的语言模型训练方法，通过让模型在生成每个token时学习产生解释性的内部思考，提高了模型在预测困难token和回答复杂问题时的能力，无需针对特定任务进行微调就能实现零样本性能提升 |      |
 
-
 ## Code
 
 | 年份 | 名字                                                                       | 简介                                | 精读 |
