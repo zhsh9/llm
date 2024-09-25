@@ -39,3 +39,54 @@ Patterns:
 - The bottom rows show very slow changes, almost appearing as solid stripes.
 
 This visualization demonstrates how positional encoding provides unique patterns for each position while maintaining relative positional information. The varying frequencies across dimensions allow the model to learn both fine-grained and coarse positional relationships.
+
+## Model Analysis
+
+![image-20240926012813684](./transformer.assets/image-20240926012813684.png)
+
+- **Efficient for typical dimensions**: While the complexity appears high, in many practical applications, d (representation dimension) is often much smaller than n (sequence length), making it computationally efficient.
+- **Parallel processing**:
+  - A major advantage of Self-Attention is its ability to process the entire sequence in parallel.
+  - Unlike recurrent layers, it doesn't require sequential processing.
+  - This significantly speeds up both training and inference, especially for long sequences.
+- **Unrestricted attention span**: Self-Attention allows any position in the sequence to directly attend to any other position, without distance limitations.
+- **Flexible dependency modeling**:
+  - Self-Attention can easily capture dependencies of various scales and types.
+  - It doesn't require predefined fixed window sizes (like convolutions) or fixed time steps (like recurrent layers).
+- **Interpretability**: The attention weights in Self-Attention can intuitively explain the model's decision-making process, which is valuable in many applications.
+
+## Experiment
+
+### Training
+
+Data & Batching & Token
+
+- Sentences were encoded using byte-pair encoding
+- Sentence pairs were batched together by approximate sequence length
+
+Optimizer
+
+- Adam
+- β1 = 0.9, β2 = 0.98 and ε = 10−9
+- lr scheduler with warm-up (warmup_steps=4000)
+
+$$
+lrate = d_{\text{model}}^{-0.5} \cdot \min(step\_num^{-0.5}, step\_num \cdot warmup\_steps^{-1.5})
+$$
+
+Regulation
+
+- Residual Dropout: $P_{drop}=0.1$
+- Label Smoothing: $\epsilon_{ls}=0.1$
+
+Sequence generation by Beam search
+
+- Beam size = 4
+- Length penalty $\alpha=0.6$
+
+Max output length = input length + 50 (with early terminating available)
+
+### Result
+
+![image-20240926014003185](./transformer.assets/image-20240926014003185.png)
+
