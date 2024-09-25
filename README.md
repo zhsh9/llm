@@ -1,4 +1,4 @@
-<h1 align="center">The Complete LLM Experience: From Zero to Hero</h1>
+<h1 align="center">The Complete LLM Roadmap: From Zero to Hero</h1>
 
 <p align="center">
   <a href="./Overview.md">
