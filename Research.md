@@ -13,14 +13,21 @@
 
 ## Literature Review
 
-| 年份 | 名字                                                                                                                                | 简介                                                     | 精读 |
-| ---- | ----------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ---- |
-| 2020 | [Efficient Transformers: A Survey](https://arxiv.org/abs/2009.06732)                                                                | Transformer 模型的全面综述                               |      |
-| 2022 | ==[On the Opportunities and Risks of Foundation Models](https://arxiv.org/pdf/2108.07258)==                                         | \*LLM 必看综述: LLM 能力、机遇和挑战，垂直领域应用，影响 |      |
-| 2023 | ==[A Survey of Large Language Models](https://arxiv.org/abs/2303.18223)==                                                           | \*LLM 必看综述: 资源、预训练、微调、应用、能力等         |      |
-| 2023 | [Summary of ChatGPT-Related Research and Perspective Towards the Future of Large Language Models](https://arxiv.org/abs/2304.01852) | 对 ChatGPT 相关研究进行了全面综述                        |      |
-| 2024 | [What is the Role of Small Models in the LLM Era: A Survey](https://arxiv.org/abs/2409.06857)                                       | 从协作和竞争关系来看 LLM 和 SM                           |      |
-| 2024 | [A Survey of Large Language Models for Graphs](https://arxiv.org/abs/2405.08011)                                                    | 综述不同设计方法来整合 LLMs 和图学习技术                 |      |
+| 年份 | 名字                                                                                                                                | 简介                                                   | 精读 |
+| ---- | ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ | ---- |
+| 2020 | [Efficient Transformers: A Survey](https://arxiv.org/abs/2009.06732)                                                                | Transformer 模型的全面综述                             |      |
+| 2022 | `*` [On the Opportunities and Risks of Foundation Models](https://arxiv.org/pdf/2108.07258)                                         | LLM 必看综述: LLM 能力、机遇和挑战，垂直领域应用，影响 |      |
+| 2023 | `*` [A Survey of Large Language Models](https://arxiv.org/abs/2303.18223)                                                           | LLM 必看综述: 资源、预训练、微调、应用、能力等         |      |
+| 2023 | [Summary of ChatGPT-Related Research and Perspective Towards the Future of Large Language Models](https://arxiv.org/abs/2304.01852) | 对 ChatGPT 相关研究进行了全面综述                      |      |
+| 2024 | [What is the Role of Small Models in the LLM Era: A Survey](https://arxiv.org/abs/2409.06857)                                       | 从协作和竞争关系来看 LLM 和 SM                         |      |
+| 2024 | [A Survey of Large Language Models for Graphs](https://arxiv.org/abs/2405.08011)                                                    | 综述不同设计方法来整合 LLMs 和图学习技术               |      |
+
+## Optimization of Model Architecture
+
+| 年份 | 名字                                                                                                                         | 简介                                                                                        | 精读 |
+| ---- | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ---- |
+| 2019 | [Understanding and Improving Layer Normalization](https://arxiv.org/abs/1911.07013)                                          | 深入分析层归一化机制，发现其效果主要源于均值和方差的导数而非前向归一化                      |
+| 2021 | [Attention is Not All You Need: Pure Attention Loses Rank Doubly Exponentially with Depth](https://arxiv.org/abs/2103.03404) | 纯注意力模型的输出随深度呈双指数级退化为秩为1的矩阵，而跳跃连接和多层感知器可以防止这种退化 |      |
 
 ## Quantization
 
