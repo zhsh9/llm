@@ -14,5 +14,3 @@
 - mask attention
 - encoder & decoder attention
 - output probability & logit & softmax
-
-## Reference
