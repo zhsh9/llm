@@ -3,12 +3,15 @@
 | 年份 | 名字                                                         | 简介                                                         | 精读                              |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | --------------------------------- |
 | 2017 | [Transformer](https://arxiv.org/abs/1706.03762)              | 继 MLP、CNN、RNN 后的第四大类架构                            | [here](./research/transformer.md) |
-| 2018 | [GPT](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf) | 使用 Transformer 解码器来做预训练                            | here                              |
-| 2018 | [BERT](https://arxiv.org/abs/1810.04805)                     | 使用 Transformer 编码器来做预训练，Transformer 一统 NLP 的开始 | here                              |
+| 2018 | [ELMo](https://arxiv.org/abs/1802.05365)                     | 使用预训练的双向语言模型(biLM)的内部状态来学习词向量         |                                   |
+| 2018 | [GPT](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf) | 使用 Transformer 解码器来做预训练                            | here                              |
+| 2018 | [BERT](https://arxiv.org/abs/1810.04805)                     | 使用 Transformer 编码器来做预训练，Transformer 一统 NLP 的开始 | [here](./research/bert.md)        |
 | 2019 | [T5](https://arxiv.org/pdf/1910.10683)                       | 使用 Transformer 解码器和编码器，文本到文本格式的预训练      |                                   |
-| 2019 | [GPT-2](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) | 更大的 GPT 模型，朝着 zero-shot learning 迈了一大步          |                                   |
+| 2019 | [GPT-2](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) | 更大的 GPT 模型，朝着 zero-shot learning 迈了一大步          |                                   |
 | 2020 | [GPT-3](https://arxiv.org/abs/2005.14165)                    | 100 倍更大的 GPT-2，few-shot learning 效果显著               |                                   |
 | 2023 | [GPT-4](https://cdn.openai.com/papers/gpt-4.pdf)             | We used python😂 多模态大模型，支持图片和文本的输入，文本的输出 |                                   |
+| 2023 | [Llama](https://arxiv.org/abs/2302.13971)                    | Meta开源LLM向闭源大模型发出冲锋号角，参数量7B到65B           |                                   |
+| 2023 | [Llama 2](https://arxiv.org/abs/2307.09288)                  | 70B到70B参数量开源大模型可能成为闭源大模型替代品             |                                   |
 | 2024 | [Llama 3.1](https://arxiv.org/pdf/2407.21783)                | 强大的 Meta 开源模型 - 动态扩展，多模态学习，零样本学习，高效计算 |                                   |
 
 ## Literature Review
@@ -35,6 +38,12 @@
 | ---- | ---- | ---- | ---- |
 |      |      |      |      |
 
+## Fine-Tuning
+
+| 年份 | 名字                                                         | 简介                               | 精读 |
+| ---- | ------------------------------------------------------------ | ---------------------------------- | ---- |
+| 2021 | [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685) | PERF参数化高效微调: Low rank, LoRA |      |
+
 ## RAG
 
 | 年份 | 名字                                                         | 简介                                                         | 精读 |
@@ -45,9 +54,10 @@
 
 ## Reinforcement Learning
 
-| 年份 | 名字                                                                          | 简介                                                 | 精读 |
-| ---- | ----------------------------------------------------------------------------- | ---------------------------------------------------- | ---- |
+| 年份 | 名字                                                         | 简介                                                 | 精读 |
+| ---- | ------------------------------------------------------------ | ---------------------------------------------------- | ---- |
 | 2020 | [Learning to summarize from human feedback](https://arxiv.org/abs/2009.01325) | 开辟进行基于人类反馈的强化模型训练，通过摘要任务展示 |      |
+| 2023 | [Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155) | InstructGPT: 通过人类反馈来微调语言模型              |      |
 
 ## Chain of Thought
 
