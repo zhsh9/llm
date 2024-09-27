@@ -16,12 +16,12 @@ Install: https://docs.anaconda.com/miniconda/#miniconda-latest-installer-links
 ## package install
 
 ```bash
+# Machine Learning
+conda install -c pytorch -c nvidia pytorch torchvision torchaudio pytorch-cuda=12.1
+conda install -c conda-forge -c huggingface transformers datasets tokenizers nltk spacy scikit-learn numpy pandas matplotlib seaborn jupyterlab tqdm
+
 # Appendix
 pip install mamba pipx bertviz nvitop
-
-# Machine Learning
-mamba install -y -c pytorch -c nvidia pytorch torchvision torchaudio pytorch-cuda=12.1
-mamba install -y -c conda-forge -c huggingface transformers datasets tokenizers nltk spacy scikit-learn numpy pandas matplotlib seaborn jupyterlab tqdm
 ```
 
 ## Hugging Face

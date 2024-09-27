@@ -70,14 +70,16 @@
 
 ## Code
 
-| 年份 | 名字                                                                       | 简介                                | 精读 |
-| ---- | -------------------------------------------------------------------------- | ----------------------------------- | ---- |
-| 2024 | [Qwen2.5-Coder Technical Report](https://huggingface.co/papers/2409.12186) | 阿里同义千问 Qwen2.5-Coder 技术报告 |      |
+| 年份 | 名字                                                         | 简介                                               | 精读 |
+| ---- | ------------------------------------------------------------ | -------------------------------------------------- | ---- |
+| 2021 | [Evaluating Large Language Models Trained on Code](https://arxiv.org/abs/2107.03374) | 公开代码微调的编程大模型，有局限也有未来发展       |      |
+| 2022 | [Competition-Level Code Generation with AlphaCode](https://arxiv.org/abs/2203.07814) | 展示解决高难度编程问题的潜力，能生成竞赛级别的代码 |      |
+| 2024 | [Qwen2.5-Coder Technical Report](https://huggingface.co/papers/2409.12186) | 阿里同义千问 Qwen2.5-Coder 技术报告                |      |
 
 ## Dataset
 
-| 名字   | 简介 |
-| ------ | ---- |
-| MMLU   |      |
-| C-Eval |      |
-| GSM8K  |      |
+| 名字                                                         | 简介                                                         |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [MMLU](https://paperswithcode.com/dataset/mmlu)              | 涵盖57个学科领域、从初级到专业水平的多任务语言理解基准测试，通过零样本和少样本设置来评估预训练模型的知识获取和问题解决能力 |
+| [C-Eval](https://paperswithcode.com/paper/c-eval-a-multi-level-multi-discipline-chinese-1) | 全面的中文评估套件，包含四个难度级别、52个学科领域的多项选择题，旨在评估基础模型在中文语境下的高级知识和推理能力 |
+| [GSM8K](https://paperswithcode.com/dataset/gsm8k)            | 包含8,500个高质量、语言多样化的小学数学应用题数据集，问题需要2到8步解答，主要涉及基本算术运算，适用于多步骤数学推理训练 |
