@@ -2,10 +2,10 @@
 
 ## miniforge
 
-Mirror: https://mirror.tuna.tsinghua.edu.cn/help/anaconda/
-Install: https://conda-forge.org/miniforge/
-Choose: Mambaforge-pypy3-Windows
-Environment Variable:
+- Mirror: https://mirror.tuna.tsinghua.edu.cn/help/anaconda/
+- Install: https://conda-forge.org/miniforge/
+- Choose: Mambaforge-pypy3-Windows
+- Environment Variable:
 
 ![image-20240927143550378](./local_python.assets/image-20240927143550378.png)
 
