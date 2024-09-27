@@ -9,16 +9,19 @@ Environment Variable:
 
 ![image-20240927143550378](./local_python.assets/image-20240927143550378.png)
 
+## miniconda
+
+Install: https://docs.anaconda.com/miniconda/#miniconda-latest-installer-links
 
 ## package install
 
 ```bash
+# Appendix
+pip install mamba pipx bertviz nvitop
+
+# Machine Learning
 mamba install -y -c pytorch -c nvidia pytorch torchvision torchaudio pytorch-cuda=12.1
-
-pip install -U huggingface_hub
 mamba install -y -c conda-forge -c huggingface transformers datasets tokenizers nltk spacy scikit-learn numpy pandas matplotlib seaborn jupyterlab tqdm
-
-pip install bertviz
 ```
 
 ## Hugging Face
