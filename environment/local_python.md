@@ -11,7 +11,9 @@
 
 ## miniconda
 
-Install: https://docs.anaconda.com/miniconda/#miniconda-latest-installer-links
+Install:
+- https://docs.anaconda.com/miniconda/#miniconda-latest-installer-links
+- https://docs.anaconda.com/miniconda/#quick-command-line-install
 
 ## package install
 
