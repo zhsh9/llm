@@ -54,8 +54,8 @@
 - Fine-tuning & pre-training
   - LoRA
   - Llama-factory
-- Quantization
-- Deployment
+- Quantization & Inference & Deployment
+  - File format: GGUF
   - Local & Cloud
   - e.g. ollama, llama.cpp, vllm
 - Platform

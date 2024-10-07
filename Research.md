@@ -29,8 +29,11 @@
 
 | 年份 | 名字                                                                                                                         | 简介                                                                                        | 精读 |
 | ---- | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ---- |
-| 2019 | [Understanding and Improving Layer Normalization](https://arxiv.org/abs/1911.07013)                                          | 深入分析层归一化机制，发现其效果主要源于均值和方差的导数而非前向归一化                      |
+| 2019 | [Understanding and Improving Layer Normalization](https://arxiv.org/abs/1911.07013)                                          | 深入分析层归一化机制，发现其效果主要源于均值和方差的导数而非前向归一化                      ||
 | 2021 | [Attention is Not All You Need: Pure Attention Loses Rank Doubly Exponentially with Depth](https://arxiv.org/abs/2103.03404) | 纯注意力模型的输出随深度呈双指数级退化为秩为1的矩阵，而跳跃连接和多层感知器可以防止这种退化 |      |
+| 2022 | [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://proceedings.neurips.cc/paper_files/paper/2022/hash/67d57c32e20fd0a7a302cb81d36e40d5-Abstract-Conference.html) | FlashAttention是一种新的注意力计算方法，通过IO感知设计显著提高了Transformer模型在长序列处理时的计算效率和内存使用 | |
+| 2023 | [FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning](https://arxiv.org/abs/2307.08691) | 通过改进并行化和工作分区策略来进一步提高注意力机制的计算效率 | |
+| 2024 | [FlashAttention-3: Fast and Accurate Attention with Asynchrony and Low-precision](https://arxiv.org/abs/2407.08608) | 过引入异步计算和低精度运算来进一步提高注意力机制的速度和准确性 | |
 
 ## Quantization
 
@@ -75,6 +78,20 @@
 | 2021 | [Evaluating Large Language Models Trained on Code](https://arxiv.org/abs/2107.03374) | 公开代码微调的编程大模型，有局限也有未来发展       |      |
 | 2022 | [Competition-Level Code Generation with AlphaCode](https://arxiv.org/abs/2203.07814) | 展示解决高难度编程问题的潜力，能生成竞赛级别的代码 |      |
 | 2024 | [Qwen2.5-Coder Technical Report](https://huggingface.co/papers/2409.12186) | 阿里同义千问 Qwen2.5-Coder 技术报告                |      |
+
+## RWKV
+
+RWKV (Receptance Weighted Key Value)
+
+| 年份 | 名字 | 简介 | 精读 |
+| ---- | ---- | ---- | ---- |
+|      |      |      |      |
+
+## Mamba
+
+| 年份 | 名字 | 简介 | 精读 |
+| ---- | ---- | ---- | ---- |
+|      |      |      |      |
 
 ## Dataset
 
