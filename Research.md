@@ -9,6 +9,8 @@
 | 2019 | [T5](https://arxiv.org/pdf/1910.10683)                       | 使用 Transformer 解码器和编码器，文本到文本格式的预训练      |                                   |
 | 2019 | [GPT-2](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) | 更大的 GPT 模型，朝着 zero-shot learning 迈了一大步          | here                              |
 | 2020 | [GPT-3](https://arxiv.org/abs/2005.14165)                    | 100 倍更大的 GPT-2，few-shot learning 效果显著               | here                              |
+| 2022 | [InstructGPT](https://arxiv.org/abs/2203.02155)              | 使用人类反馈对GPT-3进行指令微调                              |                                   |
+| 2022 | [ChatGPT](https://openai.com/index/chatgpt/)                 | 基于InstructGPT的对话式AI助手                                |                                   |
 | 2023 | [GPT-4](https://cdn.openai.com/papers/gpt-4.pdf)             | We used python😂 多模态大模型，支持图片和文本的输入，文本的输出 | here                              |
 | 2023 | [Llama](https://arxiv.org/abs/2302.13971)                    | Meta开源LLM向闭源大模型发出冲锋号角，参数量7B到65B           |                                   |
 | 2023 | [Llama 2](https://arxiv.org/abs/2307.09288)                  | 70B到70B参数量开源大模型可能成为闭源大模型替代品             |                                   |
@@ -22,6 +24,7 @@
 | 2022 | `*` [On the Opportunities and Risks of Foundation Models](https://arxiv.org/pdf/2108.07258) | LLM 必看综述: LLM 能力、机遇和挑战，垂直领域应用，影响 |      |
 | 2023 | `*` [A Survey of Large Language Models](https://arxiv.org/abs/2303.18223) | LLM 必看综述: 资源、预训练、微调、应用、能力等         | here |
 | 2023 | [Summary of ChatGPT-Related Research and Perspective Towards the Future of Large Language Models](https://arxiv.org/abs/2304.01852) | 对 ChatGPT 相关研究进行了全面综述                      |      |
+| 2023 | [Holistic Evaluation of Language Models](https://arxiv.org/abs/2211.09110) | 全面的大模型评测综述                                   |      |
 | 2024 | [What is the Role of Small Models in the LLM Era: A Survey](https://arxiv.org/abs/2409.06857) | 从协作和竞争关系来看 LLM 和 SM                         |      |
 | 2024 | [A Survey of Large Language Models for Graphs](https://arxiv.org/abs/2405.08011) | 综述不同设计方法来整合 LLMs 和图学习技术               |      |
 
@@ -57,10 +60,11 @@
 
 ## Reinforcement Learning
 
-| 年份 | 名字                                                         | 简介                                                 | 精读 |
-| ---- | ------------------------------------------------------------ | ---------------------------------------------------- | ---- |
-| 2020 | [Learning to summarize from human feedback](https://arxiv.org/abs/2009.01325) | 开辟进行基于人类反馈的强化模型训练，通过摘要任务展示 |      |
-| 2023 | [Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155) | InstructGPT: 通过人类反馈来微调语言模型              |      |
+| 年份 | 名字                                                         | 简介                                                         | 精读 |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
+| 2017 | [Proximal Policy Optimization Algorithms](https://arxiv.org/abs/1707.06347) | 强化学习必读算法，通过环境交互采样和优化替代目标函数，实现多轮小批量更新 |      |
+| 2020 | [Learning to summarize from human feedback](https://arxiv.org/abs/2009.01325) | 开辟进行基于人类反馈的强化模型训练，通过摘要任务展示         |      |
+| 2023 | [Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155) | InstructGPT: 通过人类反馈来微调语言模型                      |      |
 
 ## Chain of Thought
 
@@ -92,11 +96,3 @@ RWKV (Receptance Weighted Key Value)
 | 年份 | 名字 | 简介 | 精读 |
 | ---- | ---- | ---- | ---- |
 |      |      |      |      |
-
-## Dataset
-
-| 名字                                                         | 简介                                                         |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [MMLU](https://paperswithcode.com/dataset/mmlu)              | 涵盖57个学科领域、从初级到专业水平的多任务语言理解基准测试，通过零样本和少样本设置来评估预训练模型的知识获取和问题解决能力 |
-| [C-Eval](https://paperswithcode.com/paper/c-eval-a-multi-level-multi-discipline-chinese-1) | 全面的中文评估套件，包含四个难度级别、52个学科领域的多项选择题，旨在评估基础模型在中文语境下的高级知识和推理能力 |
-| [GSM8K](https://paperswithcode.com/dataset/gsm8k)            | 包含8,500个高质量、语言多样化的小学数学应用题数据集，问题需要2到8步解答，主要涉及基本算术运算，适用于多步骤数学推理训练 |
