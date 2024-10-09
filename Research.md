@@ -3,7 +3,7 @@
 | 年份 | 名字                                                         | 简介                                                         | 精读                              |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | --------------------------------- |
 | 2017 | [Transformer](https://arxiv.org/abs/1706.03762)              | 继 MLP、CNN、RNN 后的第四大类架构                            | [here](./research/transformer.md) |
-| 2018 | [ELMo](https://arxiv.org/abs/1802.05365)                     | 使用预训练的双向语言模型(biLM)的内部状态来学习词向量         | here                              |
+| 2018 | [ELMo](https://arxiv.org/abs/1802.05365)                     | 使用预训练的双向语言模型(biLM)的内部状态来学习词向量         | todo                              |
 | 2018 | [GPT](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf) | 使用 Transformer 解码器来做预训练                            | here                              |
 | 2018 | [BERT](https://arxiv.org/abs/1810.04805)                     | 使用 Transformer 编码器来做预训练，Transformer 一统 NLP 的开始 | [here](./research/bert.md)        |
 | 2019 | [T5](https://arxiv.org/pdf/1910.10683)                       | 使用 Transformer 解码器和编码器，文本到文本格式的预训练      |                                   |
@@ -20,11 +20,11 @@
 
 | 年份 | 名字                                                         | 简介                                                   | 精读 |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------ | ---- |
-| 2020 | [Efficient Transformers: A Survey](https://arxiv.org/abs/2009.06732) | Transformer 模型的全面综述                             | here |
-| 2022 | `*` [On the Opportunities and Risks of Foundation Models](https://arxiv.org/pdf/2108.07258) | LLM 必看综述: LLM 能力、机遇和挑战，垂直领域应用，影响 |      |
-| 2023 | `*` [A Survey of Large Language Models](https://arxiv.org/abs/2303.18223) | LLM 必看综述: 资源、预训练、微调、应用、能力等         | here |
+| 2020 | [Efficient Transformers: A Survey](https://arxiv.org/abs/2009.06732) | Transformer 模型的全面综述                             |      |
+| 2022 | [*On the Opportunities and Risks of Foundation Models](https://arxiv.org/pdf/2108.07258) | LLM 必看综述: LLM 能力、机遇和挑战，垂直领域应用，影响 | todo |
+| 2023 | [*A Survey of Large Language Models](https://arxiv.org/abs/2303.18223) | LLM 必看综述: 资源、预训练、微调、应用、能力等         | todo |
 | 2023 | [Summary of ChatGPT-Related Research and Perspective Towards the Future of Large Language Models](https://arxiv.org/abs/2304.01852) | 对 ChatGPT 相关研究进行了全面综述                      |      |
-| 2023 | [Holistic Evaluation of Language Models](https://arxiv.org/abs/2211.09110) | 全面的大模型评测综述                                   |      |
+| 2023 | [*Holistic Evaluation of Language Models](https://arxiv.org/abs/2211.09110) | 全面的大模型评测综述                                   | todo |
 | 2024 | [What is the Role of Small Models in the LLM Era: A Survey](https://arxiv.org/abs/2409.06857) | 从协作和竞争关系来看 LLM 和 SM                         |      |
 | 2024 | [A Survey of Large Language Models for Graphs](https://arxiv.org/abs/2405.08011) | 综述不同设计方法来整合 LLMs 和图学习技术               |      |
 
@@ -42,7 +42,7 @@
 
 | 年份 | 名字                                                         | 简介                                                         | 精读 |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
-| 2024 | [The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits](https://arxiv.org/abs/2402.17764) | 微软研究院提出的一个模型架构，采用极端量子量化，仅用-1, 0, 1表示每个参数，每个参数仅使用 $log_2(3)=1.58$ 比特 |      |
+| 2024 | [The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits](https://arxiv.org/abs/2402.17764) | 微软研究院提出的一个模型架构，采用极端量子量化，仅用-1, 0, 1表示每个参数，每个参数仅使用 $log_2(3)=1.58$ 比特 | todo |
 
 ## Fine-Tuning
 
@@ -54,7 +54,7 @@
 
 | 年份 | 名字                                                         | 简介                                                         | 精读 |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
-| 2020 | [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401) | RAG 开山之作: 结合预训练语言模型和外部知识检索，解决知识密集型任务 | here |
+| 2020 | [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401) | RAG 开山之作: 结合预训练语言模型和外部知识检索，解决知识密集型任务 | todo |
 | 2023 | [Retrieval-Augmented Generation for Large Language Models: A Survey](https://arxiv.org/abs/2312.10997) | 对RAG在LLM中的应用进行全面综述                               |      |
 | 2024 | [Retrieval Augmented Generation (RAG) and Beyond: A Comprehensive Survey on How to Make your LLMs use External Data More Wisely](https://arxiv.org/abs/2409.14924) | 微软出品综述: 详细探讨了使用更有效的技术将外部数据集成到LLMs |      |
 
