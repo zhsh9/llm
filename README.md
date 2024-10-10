@@ -7,6 +7,8 @@
     <img src="https://img.shields.io/badge/📚-%20Book-2E8B57?style=flat&labelColor=D8D8F6" alt="Book"></a>
   <a href="./Research.md">
     <img src="https://img.shields.io/badge/🔬-%20Research-DC143C?style=flat&labelColor=D8D8F6" alt="Research"></a>
+  <a href="./Resource.md">
+    <img src="https://img.shields.io/badge/📚-%20Resource-FFA500?style=flat&labelColor=D8D8F6" alt="Resource"></a>
   <a href="./Frontier%20Analysis.md">
     <img src="https://img.shields.io/badge/🚀-%20Frontier-FF8C00?style=flat&labelColor=D8D8F6" alt="Frontier"></a>
   <a href="./Roadmap.md">
