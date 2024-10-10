@@ -143,3 +143,58 @@ The Situations With Adversarial Generations (SWAG) 评估模型的常识推理�
 
 ## Ablation Studies
 
+- NSP is better than LTR, RTL, ELMo
+
+![image-20241010105340877](./bert.assets/image-20241010105340877.png)
+
+- Model size increases while performance increases
+- Hypothesis: pre-train & fine-tuning allows downstream tasks perform great based on small fine-tuning dataset and larger & expressive pre-trained representations
+
+![image-20241010105709481](./bert.assets/image-20241010105709481.png)
+
+- Feature-based approach advantages
+  - not all tasks can be easily represented by a Trm encoder arch
+  - cheap to pre-compute expensive representation once and compute multiple cheapers models on top of this representation
+- BERT is effective for both finetuning and feature-based approaches
+
+![image-20241010111334712](./bert.assets/image-20241010111334712.png)
+
+- Training steps increase slightly while 500k steps -> 1m steps
+
+  - Steps 是更细粒度的计量单位，直接反映了模型参数更新的次数。
+
+  - Epochs 给出了模型对整个数据集学习的完整周期数。
+
+- Different masking procedures:15%(80+10+10) best
+
+## BERT & GPT & ELMo
+
+![image-20241010111554971](./bert.assets/image-20241010111554971.png)
+
+## Pre-training Procedure
+
+- Combined sequence length: ≤ 512 tokens
+- LM masking: 15% uniform masking rate after WordPiece tokenization
+- Batch size: 256 sequences (128,000 tokens/batch)
+- Training steps: 1,000,000 (approximately 40 epochs over 3.3 billion word corpus)
+- Optimizer: Adam
+  - Learning rate: 1e-4
+  - β1 = 0.9
+  - β2 = 0.999
+  - L2 weight decay: 0.01
+  - Learning rate warmup: over first 10,000 steps
+  - Linear decay of learning rate
+- Dropout probability: 0.1 on all layers
+- Activation function: GELU (instead of standard ReLU)
+- Training loss: sum of mean masked LM likelihood and mean next sentence prediction likelihood
+
+## Fine-tuning Procedure
+
+Fine-tuning optimal hyperparameter values are task-specific (batch size, learning rate, and number of training epochs), range of possible values
+
+- Batch size: 16, 32
+- Learning rate (Adam): 5e-5, 3e-5, 2e-5
+- Number of epochs: 2, 3, 4
+
+Large dataset is less sentitive than small dataset
+
