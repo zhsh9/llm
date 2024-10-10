@@ -15,10 +15,15 @@
     <img src="https://img.shields.io/badge/🗺️-%20Roadmap-9932CC?style=flat&labelColor=D8D8F6" alt="Roadmap"></a>
 </p>
 
-## ToDo
+## TODO
+
+Basics
 
 - [ ] Fluent Python
 - [ ] PyTorch Walk Through
-- [ ] NLP Classic Papers
+
+Research
+
+- [ ] LLM Papers
 - [ ] 机器学习方法
 - [ ] 深度学习进阶: 自然语言处理
