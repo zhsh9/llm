@@ -27,3 +27,4 @@ Research
 - [ ] LLM Papers
 - [ ] 机器学习方法
 - [ ] 深度学习进阶: 自然语言处理
+- [ ] Hands-On Large Language Models
