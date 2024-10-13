@@ -11,3 +11,10 @@
 ## Computer System
 
 [CSAPP-深入理解计算机系统](https://space.bilibili.com/354767108/channel/collectiondetail?sid=373847&ctype=0)
+
+# Search Engine
+
+- [Google Scholar](https://scholar.google.com/)
+- [Dataset Search](https://datasetsearch.research.google.com/)
+- [Papers With Code](https://paperswithcode.com/)
+- [Connected Papers](https://www.connectedpapers.com/)
