@@ -1,20 +1,20 @@
 ## Model
 
-| 年份 | 名字                                                                                                           | 简介                                                              | 精读                              |
-| ---- | -------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | --------------------------------- |
-| 2017 | [Transformer](https://arxiv.org/abs/1706.03762)                                                                | 继 MLP、CNN、RNN 后的第四大类架构                                 | [here](./research/transformer.md) |
-| 2018 | [ELMo](https://arxiv.org/abs/1802.05365)                                                                       | 使用预训练的双向语言模型(biLM)的内部状态来学习词向量              | todo                              |
-| 2018 | [GPT](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf)           | 使用 Transformer 解码器来做预训练                                 | [here](./research/gpt.md)         |
-| 2018 | [BERT](https://arxiv.org/abs/1810.04805)                                                                       | 使用 Transformer 编码器来做预训练，Transformer 一统 NLP 的开始    | [here](./research/bert.md)        |
-| 2019 | [T5](https://arxiv.org/pdf/1910.10683)                                                                         | 使用 Transformer 解码器和编码器，文本到文本格式的预训练           |                                   |
-| 2019 | [GPT-2](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) | 更大的 GPT 模型，朝着 zero-shot learning 迈了一大步               | here                              |
-| 2020 | [GPT-3](https://arxiv.org/abs/2005.14165)                                                                      | 100 倍更大的 GPT-2，few-shot learning 效果显著                    | here                              |
-| 2022 | [InstructGPT](https://arxiv.org/abs/2203.02155)                                                                | 使用人类反馈对GPT-3进行指令微调                                   |                                   |
-| 2022 | [ChatGPT](https://openai.com/index/chatgpt/)                                                                   | 基于InstructGPT的对话式AI助手                                     |                                   |
-| 2023 | [GPT-4](https://cdn.openai.com/papers/gpt-4.pdf)                                                               | We used python😂 多模态大模型，支持图片和文本的输入，文本的输出    | here                              |
-| 2023 | [Llama](https://arxiv.org/abs/2302.13971)                                                                      | Meta开源LLM向闭源大模型发出冲锋号角，参数量7B到65B                |                                   |
-| 2023 | [Llama 2](https://arxiv.org/abs/2307.09288)                                                                    | 70B到70B参数量开源大模型可能成为闭源大模型替代品                  |                                   |
-| 2024 | [Llama 3.1](https://arxiv.org/pdf/2407.21783)                                                                  | 强大的 Meta 开源模型 - 动态扩展，多模态学习，零样本学习，高效计算 |                                   |
+| 年份 | 名字                                                         | 简介                                                         | 精读                              |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | --------------------------------- |
+| 2017 | [Transformer](https://arxiv.org/abs/1706.03762)              | 继 MLP、CNN、RNN 后的第四大类架构                            | [here](./research/transformer.md) |
+| 2018 | [ELMo](https://arxiv.org/abs/1802.05365)                     | 使用预训练的双向语言模型(biLM)的内部状态来学习词向量         | todo                              |
+| 2018 | [GPT](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf) | 使用 Transformer 解码器来做预训练                            | [here](./research/gpt.md)         |
+| 2018 | [BERT](https://arxiv.org/abs/1810.04805)                     | 使用 Transformer 编码器来做预训练，Transformer 一统 NLP 的开始 | [here](./research/bert.md)        |
+| 2019 | [T5](https://arxiv.org/pdf/1910.10683)                       | 使用 Transformer 解码器和编码器，文本到文本格式的预训练      |                                   |
+| 2019 | [GPT-2](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) | 更大的 GPT 模型，朝着 zero-shot learning 迈了一大步          | [here](./research/gpt.md)         |
+| 2020 | [GPT-3](https://arxiv.org/abs/2005.14165)                    | 100 倍更大的 GPT-2，few-shot learning 效果显著               | [here](./research/gpt.md)         |
+| 2022 | [InstructGPT](https://arxiv.org/abs/2203.02155)              | 使用人类反馈对GPT-3进行指令微调                              |                                   |
+| 2022 | [ChatGPT](https://openai.com/index/chatgpt/)                 | 基于InstructGPT的对话式AI助手                                |                                   |
+| 2023 | [GPT-4](https://cdn.openai.com/papers/gpt-4.pdf)             | We used python😂 多模态大模型，支持图片和文本的输入，文本的输出 | here                              |
+| 2023 | [Llama](https://arxiv.org/abs/2302.13971)                    | Meta开源LLM向闭源大模型发出冲锋号角，参数量7B到65B           |                                   |
+| 2023 | [Llama 2](https://arxiv.org/abs/2307.09288)                  | 70B到70B参数量开源大模型可能成为闭源大模型替代品             |                                   |
+| 2024 | [Llama 3.1](https://arxiv.org/pdf/2407.21783)                | 强大的 Meta 开源模型 - 动态扩展，多模态学习，零样本学习，高效计算 |                                   |
 
 ## Literature Review & Evaluation
 
@@ -29,6 +29,13 @@
 | 2023 | [Sparks of Artificial General Intelligence: Early experiments with GPT-4](https://arxiv.org/abs/2303.12712)                         | GPT-4评测，AGI元年的号角📯                                                        |      |
 | 2024 | [What is the Role of Small Models in the LLM Era: A Survey](https://arxiv.org/abs/2409.06857)                                       | 从协作和竞争关系来看 LLM 和 SM                                                   |      |
 | 2024 | [A Survey of Large Language Models for Graphs](https://arxiv.org/abs/2405.08011)                                                    | 综述不同设计方法来整合 LLMs 和图学习技术                                         |      |
+
+## Tokenizer
+
+| 年份 | 名字                                                         | 简介                                                         | 精读 |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
+| 2016 | [Neural Machine Translation of Rare Words with Subword Units](https://arxiv.org/abs/1508.07909) | BPE: 贪婪的、基于频率的符号替换算法，通过迭代地合并最频繁出现的相邻字符对（或子词对）来创建新的符号 |      |
+| 2018 | [SentencePiece: A simple and language independent subword tokenizer and detokenizer for Neural Text Processing](https://arxiv.org/abs/1808.06226) | BPE和ULM(Unigram LM)的改进和扩展，提供一种语言无关的分词方法 |      |
 
 ## Optimization of Model Architecture
 
