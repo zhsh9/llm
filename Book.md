@@ -51,3 +51,4 @@ Machine Learning 的数学基础: 微积分，线性代数，概率论，统计�
 - [ ] 大模型应用开发极简入门基于GPT-4和ChatGPT
 - [ ] 大规模语言模型: 从理论到实践
 - [ ] [Build a Large Language Model (From Scratch)](https://livebook.manning.com/book/build-a-large-language-model-from-scratch/welcome/v-8/)
+- [ ] [Hands-on Large Language models](https://www.oreilly.com/library/view/hands-on-large-language/9781098150952/)
