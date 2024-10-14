@@ -18,17 +18,17 @@
 
 ## Literature Review & Evaluation
 
-| 年份 | 名字                                                                                                                                | 简介                                                                             | 精读 |
-| ---- | ----------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | ---- |
-| 2020 | [Efficient Transformers: A Survey](https://arxiv.org/abs/2009.06732)                                                                | Transformer 模型的全面综述                                                       |      |
-| 2022 | [*On the Opportunities and Risks of Foundation Models](https://arxiv.org/pdf/2108.07258)                                            | LLM 必看综述: LLM 能力、机遇和挑战，垂直领域应用，影响                           | todo |
-| 2023 | [*A Survey of Large Language Models](https://arxiv.org/abs/2303.18223)                                                              | LLM 必看综述: 资源、预训练、微调、应用、能力等                                   | todo |
-| 2023 | [Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond](https://arxiv.org/abs/2304.13712)                        | 探讨LLM在各种NLP任务中的应用、优势和局限性，涵盖了模型、数据和下游任务等多个角度 |      |
-| 2023 | [Summary of ChatGPT-Related Research and Perspective Towards the Future of Large Language Models](https://arxiv.org/abs/2304.01852) | 对 ChatGPT 相关研究进行了全面综述                                                |      |
-| 2023 | [*Holistic Evaluation of Language Models](https://arxiv.org/abs/2211.09110)                                                         | 全面的大模型评测综述                                                             | todo |
-| 2023 | [Sparks of Artificial General Intelligence: Early experiments with GPT-4](https://arxiv.org/abs/2303.12712)                         | GPT-4评测，AGI元年的号角📯                                                        |      |
-| 2024 | [What is the Role of Small Models in the LLM Era: A Survey](https://arxiv.org/abs/2409.06857)                                       | 从协作和竞争关系来看 LLM 和 SM                                                   |      |
-| 2024 | [A Survey of Large Language Models for Graphs](https://arxiv.org/abs/2405.08011)                                                    | 综述不同设计方法来整合 LLMs 和图学习技术                                         |      |
+| 年份 | 名字                                                         | 简介                                                         | 精读                       |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | -------------------------- |
+| 2020 | [Efficient Transformers: A Survey](https://arxiv.org/abs/2009.06732) | Transformer 模型的全面综述                                   |                            |
+| 2022 | [*On the Opportunities and Risks of Foundation Models](https://arxiv.org/pdf/2108.07258) | LLM 必看综述: LLM 能力、机遇和挑战，垂直领域应用，影响       | todo                       |
+| 2023 | [*A Survey of Large Language Models](https://arxiv.org/abs/2303.18223) | LLM 必看综述: 资源、预训练、微调、应用、能力等               | todo                       |
+| 2023 | [Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond](https://arxiv.org/abs/2304.13712) | 探讨LLM在各种NLP任务中的应用、优势和局限性，涵盖了模型、数据和下游任务等多个角度 |                            |
+| 2023 | [Summary of ChatGPT-Related Research and Perspective Towards the Future of Large Language Models](https://arxiv.org/abs/2304.01852) | 对 ChatGPT 相关研究进行了全面综述                            |                            |
+| 2023 | [*Holistic Evaluation of Language Models](https://arxiv.org/abs/2211.09110) | 全面的大模型评测综述                                         | [here](./research/helm.md) |
+| 2023 | [Sparks of Artificial General Intelligence: Early experiments with GPT-4](https://arxiv.org/abs/2303.12712) | GPT-4评测，AGI元年的号角📯                                    |                            |
+| 2024 | [What is the Role of Small Models in the LLM Era: A Survey](https://arxiv.org/abs/2409.06857) | 从协作和竞争关系来看 LLM 和 SM                               |                            |
+| 2024 | [A Survey of Large Language Models for Graphs](https://arxiv.org/abs/2405.08011) | 综述不同设计方法来整合 LLMs 和图学习技术                     |                            |
 
 ## Tokenizer
 
@@ -39,14 +39,14 @@
 
 ## Optimization of Model Architecture
 
-| 年份 | 名字                                                                                                                                                                                                | 简介                                                                                                              | 精读 |
-| ---- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ---- |
-| 2019 | [Understanding and Improving Layer Normalization](https://arxiv.org/abs/1911.07013)                                                                                                                 | 深入分析层归一化机制，发现其效果主要源于均值和方差的导数而非前向归一化                                            |      |
-| 2019 | [Generating Long Sequences with Sparse Transformers](https://arxiv.org/abs/1904.10509v1)                                                                                                            |                                                                                                                   |      |
-| 2021 | [Attention is Not All You Need: Pure Attention Loses Rank Doubly Exponentially with Depth](https://arxiv.org/abs/2103.03404)                                                                        | 纯注意力模型的输出随深度呈双指数级退化为秩为1的矩阵，而跳跃连接和多层感知器可以防止这种退化                       |      |
+| 年份 | 名字                                                         | 简介                                                         | 精读 |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
+| 2019 | [Understanding and Improving Layer Normalization](https://arxiv.org/abs/1911.07013) | 深入分析层归一化机制，发现其效果主要源于均值和方差的导数而非前向归一化 |      |
+| 2019 | [Generating Long Sequences with Sparse Transformers](https://arxiv.org/abs/1904.10509v1) | 提出了稀疏因子化的注意力矩阵和快速注意力核，以降低Transformer模型在处理长序列时的计算复杂度 |      |
+| 2021 | [Attention is Not All You Need: Pure Attention Loses Rank Doubly Exponentially with Depth](https://arxiv.org/abs/2103.03404) | 纯注意力模型的输出随深度呈双指数级退化为秩为1的矩阵，而跳跃连接和多层感知器可以防止这种退化 |      |
 | 2022 | [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://proceedings.neurips.cc/paper_files/paper/2022/hash/67d57c32e20fd0a7a302cb81d36e40d5-Abstract-Conference.html) | FlashAttention是一种新的注意力计算方法，通过IO感知设计显著提高了Transformer模型在长序列处理时的计算效率和内存使用 |      |
-| 2023 | [FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning](https://arxiv.org/abs/2307.08691)                                                                                | 通过改进并行化和工作分区策略来进一步提高注意力机制的计算效率                                                      |      |
-| 2024 | [FlashAttention-3: Fast and Accurate Attention with Asynchrony and Low-precision](https://arxiv.org/abs/2407.08608)                                                                                 | 过引入异步计算和低精度运算来进一步提高注意力机制的速度和准确性                                                    |      |
+| 2023 | [FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning](https://arxiv.org/abs/2307.08691) | 通过改进并行化和工作分区策略来进一步提高注意力机制的计算效率 |      |
+| 2024 | [FlashAttention-3: Fast and Accurate Attention with Asynchrony and Low-precision](https://arxiv.org/abs/2407.08608) | 过引入异步计算和低精度运算来进一步提高注意力机制的速度和准确性 |      |
 
 ## Quantization
 
