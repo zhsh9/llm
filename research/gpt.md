@@ -116,3 +116,35 @@ Benchmark:
 
 
 # [GPT-3](https://arxiv.org/abs/2005.14165)
+
+Autoregressive scaling-up language model (175B params) improves task-agnostic, few-show performance.
+
+Evaluation under three conditions:
+
+- few-shot learning
+- one-shot learning
+- zero-shot learning
+
+![image-20241014152253262](./gpt.assets/image-20241014152253262.png)
+
+三个情况下不同模型参数量的评测表现
+
+![image-20241014152526228](./gpt.assets/image-20241014152526228.png)
+
+## Approach
+
+> Our basic pre-training approach, including model, data, and training, is similar to the process described in [RWC+19], with relatively straightforward scaling up of the model size, dataset size and diversity, and length of training.
+>
+> [RWC+19] Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, and Ilya Sutskever. Language models are unsupervised multitask learners, 2019.
+
+- 基础预训练（模型结构，数据，训练）和GPT-2类似
+- 改变的方面：模型大小，数据集大小｜多样性，训练长短
+
+## Results
+
+
+
+## Discussion
+
+社会影响 societal impacts
+
