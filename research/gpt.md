@@ -140,11 +140,59 @@ Evaluation under three conditions:
 - 基础预训练（模型结构，数据，训练）和GPT-2类似
 - 改变的方面：模型大小，数据集大小｜多样性，训练长短
 
-## Results
+Different settings (lying on a spectrum of how much task-specific data to rely on)
 
+![image-20241016151843708](./gpt.assets/image-20241016151843708.png)
 
+### Model and Architecture
+
+GPT-2 的基础上
+
+- modified initialization
+- pre-normalization
+- reversibale tokenization
+- Sparse Transformer
+
+![image-20241016160132123](./gpt.assets/image-20241016160132123.png)
+
+### Training Dataset
+
+提高 CommonCrawl 文字数据集的质量
+
+1. 下载并过滤 CommonCrawl 版本:
+    基于与高质量参考语料的相似性,对 CommonCrawl 数据进行了下载和筛选。这意味着他们选择了更接近高质量标准的内容。
+  1. classifier model to calculate document_score from CommonCrawl and high-quality documents, and add some random occasion: `np.random.pareto(α) > 1 − document_score`
+
+  2. deduplicate documents using Spark's MinHashLSH with 10 hashes 
+
+2. 执行模糊去重:
+    在文档级别对数据集内部和跨数据集进行了模糊去重。这可以防止冗余,并保持验证集的完整性,使其能够准确衡量过拟合程度。
+
+3. 添加已知的高质量参考语料:
+    将已知的高质量参考语料（WebText，Wikipedia）加入训练数据中,以增强 CommonCrawl 数据并提高其多样性。
+
+![image-20241016161437929](./gpt.assets/image-20241016161437929.png)
+
+### Training
+
+> As found in [KMH+20, MKAT18], larger models can typically use a larger batch size, but require a smaller learning rate.
+>
+> [KMH+20] Jared Kaplan, Sam McCandlish, Tom Henighan, Tom B. Brown, Benjamin Chess, Rewon Child, Scott Gray, Alec Radford, Jeffrey Wu, and Dario Amodei. Scaling laws for neural language models, 2020.
+>
+> [MKAT18] Sam McCandlish, Jared Kaplan, Dario Amodei, and OpenAI Dota Team. An empirical model of large-batch training, 2018.
+
+- 每个矩阵乘法内部使用模型并行
+- 网络的各层之间使用模型并行
+- V100 GPU 微软的高带宽集群
+
+### Evaluation
+
+![image-20241016162821337](./gpt.assets/image-20241016162821337.png)
 
 ## Discussion
 
-社会影响 societal impacts
+社会影响 societal impacts:
+
+- Misuse, Threat Actor Analysis(APT), External Incentive Structures
+- Fairness, Bias, and Representation, Gender, Race, Religion
 
