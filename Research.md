@@ -2,8 +2,9 @@
 
 | 年份 | 名字                                                         | 简介                                                         | 精读                              |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | --------------------------------- |
+| 2013 | [Word2Vec](https://arxiv.org/abs/1301.3781)                  | 开启NLP基于神经网络的推理时代                                |                                   |
 | 2017 | [Transformer](https://arxiv.org/abs/1706.03762)              | 继 MLP、CNN、RNN 后的第四大类架构                            | [here](./research/transformer.md) |
-| 2018 | [ELMo](https://arxiv.org/abs/1802.05365)                     | 使用预训练的双向语言模型(biLM)的内部状态来学习词向量         | todo                              |
+| 2018 | [ELMo](https://arxiv.org/abs/1802.05365)                     | 使用预训练的双向语言模型(biLM)的内部状态来学习词向量         |                                   |
 | 2018 | [GPT](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf) | 使用 Transformer 解码器来做预训练                            | [here](./research/gpt.md)         |
 | 2018 | [BERT](https://arxiv.org/abs/1810.04805)                     | 使用 Transformer 编码器来做预训练，Transformer 一统 NLP 的开始 | [here](./research/bert.md)        |
 | 2019 | [T5](https://arxiv.org/pdf/1910.10683)                       | 使用 Transformer 解码器和编码器，文本到文本格式的预训练      |                                   |
