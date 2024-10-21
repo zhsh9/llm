@@ -11,6 +11,7 @@
 | 2019 | [GPT-2](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) | 更大的 GPT 模型，朝着 zero-shot learning 迈了一大步          | [here](./research/gpt.md)         |
 | 2020 | [GPT-3](https://arxiv.org/abs/2005.14165)                    | 100 倍更大的 GPT-2，few-shot learning 效果显著               | [here](./research/gpt.md)         |
 | 2022 | [InstructGPT](https://arxiv.org/abs/2203.02155)              | 使用人类反馈对GPT-3进行指令微调                              |                                   |
+| 2022 | [Claude](https://arxiv.org/abs/2204.05862)                   | Anthropic LLM (Claude) 更注重稳定和安全的公司或成为OpenAI最大对手 |                                   |
 | 2022 | [ChatGPT](https://openai.com/index/chatgpt/)                 | 基于InstructGPT的对话式AI助手                                |                                   |
 | 2023 | [GPT-4](https://cdn.openai.com/papers/gpt-4.pdf)             | We used python😂 多模态大模型，支持图片和文本的输入，文本的输出 | here                              |
 | 2023 | [Llama](https://arxiv.org/abs/2302.13971)                    | Meta开源LLM向闭源大模型发出冲锋号角，参数量7B到65B           |                                   |
@@ -57,17 +58,10 @@
 
 ## Fine-Tuning
 
-| 年份 | 名字                                                                                   | 简介                               | 精读 |
-| ---- | -------------------------------------------------------------------------------------- | ---------------------------------- | ---- |
-| 2021 | [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685) | PERF参数化高效微调: Low rank, LoRA |      |
-
-## RAG
-
-| 年份 | 名字                                                                                                                                                               | 简介                                                               | 精读 |
-| ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------ | ---- |
-| 2020 | [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401)                                                               | RAG 开山之作: 结合预训练语言模型和外部知识检索，解决知识密集型任务 | todo |
-| 2023 | [Retrieval-Augmented Generation for Large Language Models: A Survey](https://arxiv.org/abs/2312.10997)                                                             | 对RAG在LLM中的应用进行全面综述                                     |      |
-| 2024 | [Retrieval Augmented Generation (RAG) and Beyond: A Comprehensive Survey on How to Make your LLMs use External Data More Wisely](https://arxiv.org/abs/2409.14924) | 微软出品综述: 详细探讨了使用更有效的技术将外部数据集成到LLMs       |      |
+| 年份 | 名字                                                         | 简介                                                         | 精读 |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
+| 2019 | [Fine-Tuning Language Models from Human Preferences](https://arxiv.org/abs/1909.08593) | 从人类偏好出发，通过强化学习和奖励机制来微调语言模型，仅仅使用5000个人工评估样本 |      |
+| 2021 | [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685) | PERF参数化高效微调: Low rank, LoRA                           |      |
 
 ## Reinforcement Learning
 
@@ -76,6 +70,14 @@
 | 2017 | [Proximal Policy Optimization Algorithms](https://arxiv.org/abs/1707.06347)                             | 强化学习必读算法，通过环境交互采样和优化替代目标函数，实现多轮小批量更新 |      |
 | 2020 | [Learning to summarize from human feedback](https://arxiv.org/abs/2009.01325)                           | 开辟进行基于人类反馈的强化模型训练，通过摘要任务展示                     |      |
 | 2023 | [Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155) | InstructGPT: 通过人类反馈来微调语言模型                                  |      |
+
+## RAG
+
+| 年份 | 名字                                                                                                                                                               | 简介                                                               | 精读 |
+| ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------ | ---- |
+| 2020 | [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401)                                                               | RAG 开山之作: 结合预训练语言模型和外部知识检索，解决知识密集型任务 | todo |
+| 2023 | [Retrieval-Augmented Generation for Large Language Models: A Survey](https://arxiv.org/abs/2312.10997)                                                             | 对RAG在LLM中的应用进行全面综述                                     |      |
+| 2024 | [Retrieval Augmented Generation (RAG) and Beyond: A Comprehensive Survey on How to Make your LLMs use External Data More Wisely](https://arxiv.org/abs/2409.14924) | 微软出品综述: 详细探讨了使用更有效的技术将外部数据集成到LLMs       |      |
 
 ## Chain of Thought
 
