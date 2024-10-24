@@ -32,6 +32,22 @@
 | 2024 | [What is the Role of Small Models in the LLM Era: A Survey](https://arxiv.org/abs/2409.06857) | 从协作和竞争关系来看 LLM 和 SM                               |                            |
 | 2024 | [A Survey of Large Language Models for Graphs](https://arxiv.org/abs/2405.08011) | 综述不同设计方法来整合 LLMs 和图学习技术                     |                            |
 
+## Principle
+
+| 年份 | 名字                                                         | 简介                                                         | 精读 |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
+| 2020 | [Scaling Laws for Neural Language Models](https://arxiv.org/abs/2001.08361) | 研究LM在CEL上的经验性缩放规律，发现损失与模型大小、数据集大小和训练计算量呈幂律关系，并提出了在有限计算预算下的最佳资源分配策略 |      |
+| 2021 | [Scaling Language Models: Methods, Analysis & Insights from Training Gopher](https://arxiv.org/abs/2112.11446) | 通过训练和分析从数千万到2000亿参数的Transformer语言模型（包括Gopher），全面研究了模型规模与性能的关系 |      |
+| 2022 | [Training Compute-Optimal Large Language Models](https://arxiv.org/abs/2203.15556) | 研究在固定计算预算下训练transformer语言模型的最优模型规模和训练数据量 |      |
+| 2023 | [DoReMi: Optimizing Data Mixtures Speeds Up Language Model Pretraining)](https://arxiv.org/abs/2305.10429) | 研究大语言模型领域适应预训练(D-CPT)中通用语料与领域语料的最佳混合比例问题 |      |
+| 2024 | [D-CPT Law: Domain-specific Continual Pre-Training Scaling Law for Large Language Models](https://arxiv.org/abs/2406.01375) | 通过在小型代理模型上优化预训练数据的不同领域权重，再将这些权重迁移到大模型训练中，在不需要下游任务信息的情况下实现了性能提升 |      |
+
+## Small Language Model
+
+| 年份 | 名字                                                         | 简介                                                         | 精读 |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
+| 2024 | [MiniCPM: Unveiling the Potential of Small Language Models with Scalable Training Strategies](https://arxiv.org/abs/2404.06395) | 通过可扩展的训练策略，探索小型语言模型在资源效率和性能上的潜力，作为大模型的高效替代方案 |      |
+
 ## Tokenizer
 
 | 年份 | 名字                                                         | 简介                                                         | 精读 |
