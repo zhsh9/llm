@@ -18,3 +18,5 @@
 - [Dataset Search](https://datasetsearch.research.google.com/)
 - [Papers With Code](https://paperswithcode.com/)
 - [Connected Papers](https://www.connectedpapers.com/)
+- [Research Rabbit](https://researchrabbitapp.com/home)
+- [Stork](https://www.storkapp.me/)
