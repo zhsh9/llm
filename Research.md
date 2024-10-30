@@ -16,7 +16,7 @@
 | 2023 | [GPT-4](https://cdn.openai.com/papers/gpt-4.pdf)             | We used python😂 多模态大模型，支持图片和文本的输入，文本的输出 | here                              |
 | 2023 | [Llama](https://arxiv.org/abs/2302.13971)                    | Meta开源LLM向闭源大模型发出冲锋号角，参数量7B到65B           |                                   |
 | 2023 | [Llama 2](https://arxiv.org/abs/2307.09288)                  | 70B到70B参数量开源大模型可能成为闭源大模型替代品             |                                   |
-| 2024 | [Llama 3.1](https://arxiv.org/pdf/2407.21783)                | 强大的 Meta 开源模型 - 动态扩展，多模态学习，零样本学习，高效计算 |                                   |
+| 2024 | [Llama 3](https://arxiv.org/pdf/2407.21783)                  | 强大的 Meta 开源模型 - 动态扩展，多模态学习，零样本学习，高效计算 |                                   |
 
 ## Literature Review & Evaluation
 
@@ -47,6 +47,7 @@
 | 年份 | 名字                                                         | 简介                                                         | 精读 |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
 | 2024 | [MiniCPM: Unveiling the Potential of Small Language Models with Scalable Training Strategies](https://arxiv.org/abs/2404.06395) | 通过可扩展的训练策略，探索小型语言模型在资源效率和性能上的潜力，作为大模型的高效替代方案 |      |
+| 2024 | [Small Language Models: Survey, Measurements, and Insights](https://arxiv.org/abs/2409.15790) | 来自北京邮电大学、鹏城实验室、Helixon Research、剑桥大学的小型语言模型SLM的研究综述 |      |
 
 ## Tokenizer
 
@@ -128,6 +129,7 @@ RWKV (Receptance Weighted Key Value)
 
 ## Mamba
 
-| 年份 | 名字 | 简介 | 精读 |
-| ---- | ---- | ---- | ---- |
-|      |      |      |      |
+| 年份 | 名字                                                         | 简介                                     | 精读 |
+| ---- | ------------------------------------------------------------ | ---------------------------------------- | ---- |
+| 2023 | [Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://arxiv.org/abs/2312.00752) | Transformer已"死"，Mamba当立             |      |
+| 2024 | [Transformers are SSMs: Generalized Models and Efficient Algorithms Through Structured State Space Duality](https://arxiv.org/abs/2405.21060) | Mamba2提出，核心层对Mamba选择性SMM的改进 |      |
