@@ -29,6 +29,7 @@
 | 2023 | [Summary of ChatGPT-Related Research and Perspective Towards the Future of Large Language Models](https://arxiv.org/abs/2304.01852) | 对 ChatGPT 相关研究进行了全面综述                            |                            |
 | 2023 | [*Holistic Evaluation of Language Models](https://arxiv.org/abs/2211.09110) | 全面的大模型评测综述                                         | [here](./research/helm.md) |
 | 2023 | [Sparks of Artificial General Intelligence: Early experiments with GPT-4](https://arxiv.org/abs/2303.12712) | GPT-4评测，AGI元年的号角📯                                    |                            |
+| 2023 | [A Comprehensive Overview of Large Language Models](https://arxiv.org/abs/2307.06435) | ❗️全面的大模型综述文章                                        | todo                       |
 | 2024 | [What is the Role of Small Models in the LLM Era: A Survey](https://arxiv.org/abs/2409.06857) | 从协作和竞争关系来看 LLM 和 SM                               |                            |
 | 2024 | [A Survey of Large Language Models for Graphs](https://arxiv.org/abs/2405.08011) | 综述不同设计方法来整合 LLMs 和图学习技术                     |                            |
 
