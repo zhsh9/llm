@@ -13,10 +13,12 @@
 | 2022 | [InstructGPT](https://arxiv.org/abs/2203.02155)              | 使用人类反馈对GPT-3进行指令微调                              |                                   |
 | 2022 | [Claude](https://arxiv.org/abs/2204.05862)                   | Anthropic LLM (Claude) 更注重稳定和安全的公司或成为OpenAI最大对手 |                                   |
 | 2022 | [ChatGPT](https://openai.com/index/chatgpt/)                 | 基于InstructGPT的对话式AI助手                                |                                   |
-| 2023 | [GPT-4](https://cdn.openai.com/papers/gpt-4.pdf)             | We used python😂 多模态大模型，支持图片和文本的输入，文本的输出 | here                              |
-| 2023 | [Llama](https://arxiv.org/abs/2302.13971)                    | Meta开源LLM向闭源大模型发出冲锋号角，参数量7B到65B           |                                   |
-| 2023 | [Llama 2](https://arxiv.org/abs/2307.09288)                  | 70B到70B参数量开源大模型可能成为闭源大模型替代品             |                                   |
-| 2024 | [Llama 3](https://arxiv.org/pdf/2407.21783)                  | 强大的 Meta 开源模型 - 动态扩展，多模态学习，零样本学习，高效计算 |                                   |
+| 2023 | [GPT-4](https://cdn.openai.com/papers/gpt-4.pdf)             | We used python😂 多模态大模型，支持图片和文本的输入，文本的输出 | todo                              |
+| 2023 | [Llama](https://arxiv.org/abs/2302.13971)                    | Meta开源LLM向闭源大模型发出冲锋号角，参数量7B到65B           | [here](./research/llama.md)       |
+| 2023 | [Llama 2](https://arxiv.org/abs/2307.09288)                  | 70B到70B参数量开源大模型可能成为闭源大模型替代品             | [here](./research/llama.md)       |
+| 2024 | [Llama 3](https://arxiv.org/pdf/2407.21783)                  | 强大的 Meta 开源模型 - 动态扩展，多模态学习，零样本学习，高效计算 | [here](./research/llama.md)       |
+| 2022 | [PaLM](https://arxiv.org/abs/2204.02311)                     | Google AI 出品 540B 大模型                                   |                                   |
+| 2023 | [PaLM 2](https://arxiv.org/abs/2305.10403)                   | Google AI 出品改进训练方法、参数量更小但是效果更好的第二版大模型 |                                   |
 
 ## Literature Review & Evaluation
 
